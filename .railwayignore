@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+apps/frontend/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+apps/backend/.venv/
+apps/backend/venv/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+app.db*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+apps/frontend/dist/
+apps/frontend/build/
+*.log
+
+# Git
+.git/
+.gitignore
+
+# Documentation (optional, remove if you want docs in deployment)
+docs/
+*.md
+!README.md
